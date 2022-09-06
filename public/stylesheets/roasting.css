@@ -1,0 +1,475 @@
+*{box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  serif;}/*'Roboto',*/
+  body,html{background-color: #fff;height: 100%;color: #333;}
+  /*-------------------start---navigation bar-----------------------------*/
+  
+  :root{
+  
+    --big-title1:25px;
+  
+  }
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  /*-------------------start--background image-----------------------------*/
+  
+  section{
+      background-image: url(../images/BGCaffe3.jpg);
+      height:100%;
+      background-size: cover;
+      background-position: center bottom;
+      position: relative;
+      z-index: 5;
+      
+  }
+ 
+                 
+  
+  .testo{
+    width: 100%;
+    height: 100%;
+    display:table;
+    z-index: 225;
+    position: absolute;
+   }
+  
+  .testo_copia{
+    width: 100%;
+    display: table-cell;
+    text-align: right;
+    padding-right: 10%;
+    vertical-align: middle;
+    color: #fff;
+    }
+  
+    .testo_copia img{
+      width: 30%;
+      padding-top: 250px;
+      
+      }
+    
+    
+  /*---------------------BLOCK 1°--------------------------*/
+  
+  
+  .introduction{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 6;
+    margin-top:5vw;
+  }
+  
+  .introduction_int{
+    width: 70%;
+    height: 100%;
+    background-image: url(../images/roasting.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    box-shadow: 20px 20px 20px -10px;
+    
+  }
+    
+   
+
+  /*---------------------BLOCK 2°--------------------------*/
+  
+   .first_paragraf {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   }
+   .first_paragraf_int{
+   width: 70%;
+   margin: 0;
+   font-size:var(--big-title1);
+   }
+
+
+  
+
+/*---------------------BLOCK 2°-------------plus-------------*/
+
+.splitter_wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splitter_wrapper_int{
+  width: 70%;
+  padding-bottom: 10vw;
+}
+
+
+
+  .splitter_wrapper img{
+    width: 50%;
+    float: left;
+    box-shadow:  10px 20px 20px -10px; 
+    }
+ .foto_1{
+    position: relative;
+    top: 10vw;
+    right: -5vw;
+    z-index:4;
+    
+    }
+ .foto_2{
+    position: relative;
+    left: -5vw;
+    z-index: 3;
+      }  
+  
+  /*---------------------BLOCK 3°--------------------------*/
+  
+  
+  .second_paragraf{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .second_paragraf_int{
+    width: 70%;
+    font-size: var(--big-title1);
+  }
+ 
+   
+    
+
+  /*---------------------BLOCK 4°--------------------------*/
+  
+  
+  .rosting{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .rosting_int{
+    width: 70%;
+    background-image:url(../images/caffeRoasted.jpeg);
+    background-size:cover;
+    background-position:center right;
+    position:relative;
+    margin: 5vw;
+    box-shadow: 10px 20px 20px -10px #333;
+  }
+ 
+  /*---------------------BLOCK 5°--------------------------*/
+  
+  
+  .text_under_the_bean{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .text_under_the_bean_int{
+    width: 60%;
+    text-align: center;
+    font-size:var(--big-title1);
+  }
+ 
+
+
+
+/*---------------------BLOCK 6°--------------------------*/
+  
+ 
+  
+   .container_coffeTear{
+     width: 100%; 
+     display: flex;
+     justify-content: center;
+     
+   }
+
+   .coffeTear_w {
+    width:80%;
+    display: flex;
+    justify-content: center;
+    background-image:url(../images/pleasure.png);
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+    
+ }
+
+   .coffeTear_w img{
+      width:30%;
+      text-align: center;
+       transform:translateY(8vw);
+   }
+   
+/*---------------------BLOCK 7°--------------------------*/
+  
+ 
+
+
+.CupOfCoffee{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}  
+.CupOfCoffee_int{
+  width: 10%;
+ 
+}
+
+.CupOfCoffee_int img{
+  width: 100%;
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width: 1005px){
+  
+     
+  
+  
+    }
+  
+  
+  
+    @media(max-width: 938px){
+      .second_paragraf_int{
+        width: 90%;
+        font-size: var(--big-title1);
+      }
+ 
+    }
+  
+  
+  
+  @media(max-width: 890px){
+    .introduction_int{width: 80%;} 
+    .w_introduction{width: 90%;}
+    
+    
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    @media(max-width: 789px){
+  
+        
+   }
+  
+   @media(max-width: 678px){
+  
+      .argomenti{width:100%;}
+      
+  .wrapper_first_par{
+    width: 100%;}
+        }
+  
+ 
+  
+  
+      
+  
+  
+  
+  
+  
+    @media(max-width: 618px){
+    h1{font-size: 6vw;transition: all ease-in-out 1s;}
+    .par{font-size: 4vw;transition: all ease-in-out 1s;}
+    
+        }
+  
+   @media(max-width: 560px){
+  
+ 
+    .text h1{
+        font-size: var(--big-title3); }
+      
+    
+    }
+    @media(max-width: 531px){
+      
+      .text_under_the_bean_int,
+      .coffeTear_w,
+      .second_paragraf,
+      .splitter_wrapper_int,
+      .first_paragraf_int,
+      .rosting_int,
+      .introduction_int{width: 95%;}
+      
+         
+          }
+ 
+  
+ @media(max-width:460px){
+ 
+  h1{font-size: 7vw;transition: all ease-in-out 1s;}
+  .par{font-size: 5vw;transition: all ease-in-out 1s;}
+      }
+      
+        
+  
+  
+        @media(max-width: 450px){
+  
+  
+    
+          
+          }
+        
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  @media(max-width: 300px){
+  
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

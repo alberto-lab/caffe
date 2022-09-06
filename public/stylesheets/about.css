@@ -1,0 +1,353 @@
+*{box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  serif;}/*'Roboto',*/
+  body,html{background-color: #fff;height: 100%;}
+  /*-------------------start---navigation bar-----------------------------*/
+  
+  :root{
+  
+    --big-title1:25px;
+  
+  }
+  
+  
+
+ 
+  
+  /*-------------------start--background image-----------------------------*/
+  
+  section{
+      background-image: url(../images/BGCaffe3.jpg);
+      height:100%;
+      background-size: cover;
+      background-position: center bottom;
+      position: relative;
+      z-index: 5;
+      
+  }
+
+          
+                 
+  
+  .testo{
+    width: 100%;
+    height: 100%;
+    display:table;
+    z-index: 225;
+    position: absolute;
+   }
+  
+  .testo_copia{
+    width: 100%;
+    display: table-cell;
+    text-align: right;
+    padding-right: 10%;
+    vertical-align: middle;
+    color: #fff;
+    }
+  
+    .testo_copia img{
+      width: 30%;
+      padding-top: 250px;
+      
+      }
+    
+    
+  /*---------------------BLOCK 1°--------------------------*/
+  
+  
+  .introduction{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 6;
+  }
+  
+  .introduction_int{
+    width: 80%;
+  }
+  .wrapper_first_par{
+    width: 70%;
+    float: left;
+    height: 100%;
+    font-size:var(--big-title1);
+    transition: all ease-in-out 1s; 
+  }
+
+  .wrapper_first_par{
+    width: 80%;
+    height: 100%;
+    margin-top: 2%;
+  }
+
+  .wrapper_first_par h1{
+    padding: 0; margin: 0;
+  }
+ 
+  
+
+  
+  /*line on left side*/
+  .container_vertical_line{display:block;}
+  .vertical_line{
+    height: 100px;
+    width: 1px;
+    position: absolute;
+    left:5%;}
+  .vertical_line:nth-child(1){
+    background-color:#808080;}
+  .vertical_line:nth-child(2){
+    height: 22px;
+    font-weight:100;
+    transform: translateY(140px)translateX(-4px);}
+  .vertical_line:nth-child(3){
+    background-color: #808080;transform: translateY(200px);}
+
+  .wrapper_first_par{
+  text-align: center;
+  }
+  
+  /*---------------------BLOCK 2°--------------------------*/
+  
+
+  .container_second_paragraf{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: all ease-in-out 0.7s;
+ 
+
+}
+.wrapper_second_paragraf{
+  width: 58%;
+  text-align: left;
+  z-index: 36;
+  overflow: visible;
+  padding: 20px;
+  transition: all ease-in-out 0.7s;
+  transform: translateY(-30px);
+   font-size: var(--big-title1); 
+}
+
+
+.second_container_vertical_line{display:block;}
+.second_vertical_line{
+  height: 100px;
+  width: 1px;
+  position: absolute;
+  z-index: 7;
+  right:5%;}
+.second_vertical_line:nth-child(1){
+  background-color:#333;}
+.second_vertical_line:nth-child(2){
+  height: 22px;color: #333;
+  font-weight:100;
+  transform: translateY(137px)translateX(-3px);}
+.second_vertical_line:nth-child(3){
+  background-color: #333;transform: translateY(200px);}
+
+
+  .second_container_vertical_line span{
+    opacity: 0.4;
+  }
+
+.wrapper_second_paragraf{
+  text-align: center;
+}
+  
+  
+  /*---------------------BLOCK 3°--------------------------*/
+  
+  
+ 
+  
+  
+  
+   .whitespace{
+     width: 100%;
+     height: 100%;
+     background-color: skyblue;
+   }
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  @media(max-width: 890px){
+    .introduction_int{width: 80%;} 
+    .w_introduction{width: 90%;}
+    
+    
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+   
+  
+   @media(max-width: 678px){
+  
+      .argomenti{width:100%;}
+      
+  .wrapper_first_par{
+    width: 100%;}
+        }
+ 
+  
+      
+ 
+  
+  
+  
+    @media(max-width: 618px){
+    h1{font-size: 6vw;transition: all ease-in-out 1s;}
+    .par{font-size: 4vw;transition: all ease-in-out 1s;}
+    
+        }
+  
+   @media(max-width: 560px){
+  
+
+ 
+      .wrapper_first_par, .wrapper_second_paragraf{text-align: left;}
+      .wrapper_second_paragraf{width: 88%;}
+    }
+  
+ 
+  
+ @media(max-width:460px){
+ 
+  h1{font-size: 7vw;transition: all ease-in-out 1s;}
+  .par{font-size: 5vw;transition: all ease-in-out 1s;}
+      }
+      
+        
+  
+ 
+        
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  @media(max-width: 300px){
+  
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,599 @@
+*{box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:  serif;}/*'Roboto',*/
+  body,html{background-color: #fff;height: 100%;}
+  /*-------------------start---navigation bar-----------------------------*/
+  
+  :root{
+  
+    --big-title1:25px;
+  
+  }
+  
+  
+.btn{
+  width: 100%;
+
+}
+.btn_w{
+  width: auto;
+  position: absolute;
+}
+.btn_w p{
+  padding: 10px 35px;
+  background-color: lightblue;
+  color: #fff;
+  border-radius: 10px;
+}
+  
+  
+  
+  
+
+  
+  /*-------------------start--background image-----------------------------*/
+  
+  section{
+      background-image: url(../images/BGCaffe3.jpg);
+      height:100%;
+      background-size: cover;
+      background-position: center bottom;
+      position: relative;
+      z-index: 5;
+      
+  }
+  
+                 
+  
+  .testo{
+    width: 100%;
+    height: 100%;
+    display:table;
+    z-index: 225;
+    position: absolute;
+   }
+  
+  .testo_copia{
+    width: 100%;
+    display: table-cell;
+    text-align: right;
+    padding-right: 10%;
+    vertical-align: middle;
+    color: #fff;
+    }
+    .testo_copia img{
+      width: 30%;
+      padding-top: 250px;
+      
+      }
+    
+    
+    
+  /*---------------------BLOCK 0°--------------------------*/
+  
+  
+  .introduction{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 6;
+  }
+  
+  .introduction_int{
+    width: 70%;
+    padding-right: 18vw;
+    font-size:var(--big-title1);
+  }
+ 
+ 
+  
+
+  
+ 
+  /*---------------------BLOCK 1°--------------------------*/
+  
+  .container_bartending{
+   width: 100%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+
+  }
+
+  .bartending_int{
+   width: 70%;
+   font-size:var(--big-title1);
+   margin: 2vw;
+  }
+  
+  .wr_element{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .bartending_box{
+   width: 50%;
+   float: left;
+  
+    
+  }
+  .bartending_box:nth-child(1){
+    height: 100%;
+    background-image: url(../images/drink2.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    transform: translateX(0px);
+    left: 0px;
+   
+  
+   }
+   .bartending_box:nth-child(2){
+    transform: translateX(0px);
+    position: relative;
+   
+   }
+   .divsion_txt{
+      height: 80vw;
+      background-color: rgba(255, 255, 255, 0.432);
+      padding: 6vw;
+      transition: all ease-in-out 0.7s;
+      text-align:left;
+      margin-top: 15px;
+   }
+   /*---------------------BLOCK 2°--------------------------*/
+  
+   .container_hot_drink{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+ 
+   }
+ 
+   .container_hot_drink_int{
+    width: 70%;
+    font-size:var(--big-title1);
+    margin: 2vw;
+   }
+   .sett_absolute_hot_drink_int{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+   }
+   
+   .hot_drink_box{
+    width: 50%;
+    float: left;
+    
+   }
+   
+   .hot_drink_box:nth-child(1){
+  
+    transform: translateY(-50px);
+    top: 69px;
+    position: relative;   z-index: 4;
+   }
+  
+
+
+   .hot_drink_box:nth-child(2){
+    height: 100%;
+    background-image: url(../images/bom1.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: -104px;
+    z-index: 2;
+   }
+   
+    
+
+
+
+
+    .hot_cocktails_txt{
+    position: relative;
+    z-index: 3;
+     
+   }
+
+
+   
+ 
+ /*---------------------BLOCK 4°--------------------------*/
+  
+ .container_learn_a_job{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  
+ }
+
+ .container_learn_a_job_int{
+  width: 70%;
+  font-size:var(--big-title1);
+  margin: 2vw;
+ }
+ 
+ .set_learn_a_job_int{
+  
+  height: 100%;
+  overflow: hidden;
+ }
+
+ .container_learn_a_job_box{
+  width: 50%;
+  float: left;
+  padding: 0 0 0 6vw;
+ 
+ }
+
+ .container_learn_a_job_box:nth-child(1){
+  height: 100%;
+  background-image: url(../images/bom2.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 2;
+  transform: translateY(0px);
+  top: -131px;
+  
+ }
+
+ .container_learn_a_job_box:nth-child(2){
+  position: relative;
+  z-index:4;
+  transform: translateY(0px);
+ }
+ .learn_txt{
+   margin-top: 143px;
+   position: relative;
+  
+ }
+ 
+/*---------------------BLOCK 4°--------------------------*/
+  
+ 
+  
+  
+   .whitespace{
+     width: 100%;
+     
+     display: flex;
+     justify-content: center;
+ 
+   }
+  
+   .whitespace_int{
+     width: 70%;
+   }
+
+  .title_line{
+    width: 60%;
+    background-color: rgb(145, 145, 240);
+    position: absolute;
+    color: #fff;
+  }
+
+  .title_line h4{
+    margin: 0;
+    padding: 10px;
+  }
+
+
+  .wrapper_title2{
+   
+    position: absolute;
+  }
+  .wrappet_txt{
+    width: 90%;
+    margin-top: 105px;
+  }
+  
+/*______________________next cours box_____________________*/
+  
+  
+  
+  .next_cours{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .next_cours_int{
+  width: 100%;
+  margin: 80px 0;
+  }
+  
+  .next_cours_box{
+  width: 33.333%;
+  float: left;
+  }
+  
+  .next_cours_box_int{
+   
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px -4px #333;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width: 1109px){
+  
+     .learn_txt_wrapper{
+      width: 100%;
+     }
+  
+  
+    }
+  
+  
+  
+  @media(max-width: 905px){
+   
+  
+    }
+  
+  
+  
+  @media(max-width: 890px){
+    .introduction_int{width: 80%;} 
+    .w_introduction{width: 90%;}
+    
+    .container_learn_a_job_int,
+    .container_hot_drink_int,
+    .bartending_int{width: 90%;}
+    .whitespace_int{width: 90%;}
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width: 790px){
+
+    .next_cours_box{
+    width: 100%;
+    float: left;
+  }
+    }
+  
+  
+    @media(max-width: 717px){
+      .bartending_box:nth-child(1){position: absolute;}
+      .bartending_box{width: 100%;}
+      .bartending_box:nth-child(2){right: 0px;}
+      .divsion_txt{
+        transform: translateY(100px);
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        margin-top: 55px;
+        padding: 20px;}
+        .btn_w{
+          width: auto;
+          position: relative;
+          display: flex;
+          justify-content: center;
+        }
+
+        .hot_cocktails_w{position: absolute;}
+      
+         .hot_drink_box{width: 100%;}
+         .hot_cocktails_txt{
+          position: absolute;
+          text-align: center;
+          color: #fff;
+          padding-top: 118px;
+          padding-left: 20px;
+          padding-right: 20px;
+         }
+         .container_learn_a_job_box{
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          padding: 0vw;}
+ 
+         .container_learn_a_job_box:nth-child(1){
+          z-index: 1;
+          position: relative;}
+          .container_learn_a_job_box:nth-child(2){
+          z-index: 6;
+          position: relative;}
+
+         .learn_txt{
+           position: relative;
+           z-index: 13;
+           color: #fff;
+           text-align: center;
+           padding: 20px;
+          margin-top: -296px;}
+ 
+          
+   }
+  
+   @media(max-width: 678px){
+  
+      .argomenti{width:100%;}
+      
+  .wrapper_first_par{
+    width: 100%;}
+        }
+  
+
+ 
+  
+  
+      
+    @media(max-width: 678px){
+    
+
+      
+         
+          }
+  
+  
+  
+  
+    
+    @media(max-width: 618px){
+    h1{font-size: 6vw;transition: all ease-in-out 1s;}
+    .par{font-size: 4vw;transition: all ease-in-out 1s;}
+    
+        }
+  
+   @media(max-width: 560px){
+  
+ 
+    .text h1{font-size: var(--big-title3); }
+    .divsion_txt{
+      transform: translateY(155px);
+      background-color: transparent;
+      color: #fff;
+      text-align: center;}
+    }
+  
+  
+  
+ @media(max-width:460px){
+ 
+  h1{font-size: 7vw;transition: all ease-in-out 1s;}
+  .par{font-size: 5vw;transition: all ease-in-out 1s;}
+  .title_line{ width: 90%;}
+      }
+      
+        
+  
+  
+  
+      @media(max-width: 400px){
+        .next_cours_box_int{margin: 0px; padding: 10px;}
+        
+      }
+      
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  @media(max-width: 300px){
+  
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

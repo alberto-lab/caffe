@@ -1,0 +1,41 @@
+.transition_2{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    width: 100%;
+    z-index: 3000;
+    background-color: #111;
+    transition:all ease-in-out 0.2s;
+    color: #fff;
+    font-size: 5vw;
+}
+
+.transition_2.is_active{
+ left: 0%;
+}
+
+
+/*-------------fx apear ----------------*/
+
+.reveal{
+    transform: translateY(80px)scale(0.5);
+    opacity: 0;
+    transition: all ease-in-out 0.6s;
+    position: relative;
+}
+
+
+.reveal.active{
+    transform: translateY(0px)scale(1);
+    opacity: 1;
+     
+
+}
+
+
+
+
+ 
+
+
